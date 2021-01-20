@@ -1,0 +1,78 @@
+
+@import "compass/reset";
+@import "compass/css3";
+
+
+
+
+.content
+	{
+		margin-top: 231px;
+		margin-left: 81px;
+		width: 43%; 
+	}
+.ind_t
+	{
+		width: 486px;
+		height: 225px;
+		letter-spacing: 1px;
+		font-size: 14px;
+		font-weight: 500;
+		margin-top: 8.5px;
+		margin-left: 6px;
+	}
+.tr
+	{
+		height: 45px;
+		width: 100%;
+		color: #2c2c2c;
+		padding-top: 21px;
+		padding-left: 4px;
+		border-bottom: 2px dashed #bcbcbc;
+		
+	}
+.soli
+	{
+		margin-left: 5px;
+		margin-right: 5px;
+		}
+
+.page
+	{
+		margin-right:2px;
+		margin-top: 36px;
+	}
+.p_a
+	{
+		color: #1a1a1a;
+		background-color: #a8a8a8;
+		width: 15px;
+		height: 15px;
+		margin-left: 3px;
+		text-align: center;
+		@include border-radius(15px, 15px);
+		&:hover
+			{
+				color: #ffffff;
+				background-color: #252525;
+			}
+		&:active
+			{
+				color: #ffffff;
+				background-color: #252525;
+			}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

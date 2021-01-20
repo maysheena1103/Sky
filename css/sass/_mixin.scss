@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+@mixin bg ($img)
+	{
+		background: url("../../images/#{$img}") ;
+		background-repeat: repeat;
+	}
+
+@mixin img ($img)
+	{
+		background: url("../../images/#{$img}") ;
+		/*width: image-width("../../images/#{$img}") ; 
+		height: image-height("../../images/#{$img}") ;*/ 
+	}
+  
+@mixin menu ( $color, $font-size)
+	{
+		color: $color;
+		font-size: $font-size;
+		letter-spacing:0.5px;
+		font-weight: 900;
+		text-align: center;
+	}
+
+

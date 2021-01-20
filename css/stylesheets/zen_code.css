@@ -1,0 +1,175 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.content {
+  margin-top: 231px;
+  margin-left: 81px;
+}
+
+.first {
+  margin-left: 14px;
+}
+
+.m_a {
+  color: #000000;
+  margin-top: 26px;
+  font-size: 13px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+.m_a:hover {
+  color: #d00000;
+}
+
+.table {
+  width: 564px;
+  min-height: 285px;
+  margin-top: 31px;
+}
+.table table {
+  width: 100%;
+  max-height: 100%;
+}
+.table .f_a {
+  background-color: #a6a6a6;
+  border-bottom: 1px solid #ffffff;
+}
+.table .f_b {
+  background-color: #f1f1e4;
+}
+.table .f_c {
+  background-color: #e6e6e6;
+}
+.table .b_b {
+  border-bottom: 1px solid #ffffff;
+}
+.table .ti {
+  width: 30%;
+}
+.table th {
+  color: #ffffff;
+  font-size: 13px;
+  height: 25px;
+  text-align: center;
+}
+.table td {
+  font-size: 12px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+.table .t_red {
+  color: #d82424;
+}
+
+.d_c {
+  margin-left: 348px;
+  margin-top: 20px;
+  width: 216px;
+  height: 36px;
+  border: 1px solid #e1e1e1;
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+.con {
+  width: 137px;
+  padding-top: 13px;
+  font-size: 11px;
+  height: 100%;
+  text-align: center;
+  border-right: 1px solid #e1e1e1;
+}
+
+.dot {
+  text-align: center;
+  padding-top: 13px;
+  color: #ffde00;
+  font-size: 13px;
+  width: 77px;
+}
+
+.ai {
+  color: #d00000;
+}
+
+.a_o {
+  color: #8f8f8f;
+}
+
+.page {
+  margin-top: 10px;
+}
+
+.p_a {
+  color: #1a1a1a;
+  background-color: #a8a8a8;
+  width: 15px;
+  height: 15px;
+  margin-left: 3px;
+  text-align: center;
+  -moz-border-radius: 15px / 15px;
+  -webkit-border-radius: 15px 15px;
+  border-radius: 15px / 15px;
+}
+.p_a:hover {
+  color: #ffffff;
+  background-color: #252525;
+}
+.p_a:active {
+  color: #ffffff;
+  background-color: #252525;
+}

@@ -1,0 +1,103 @@
+
+@import "compass/reset";
+@import "compass/css3";
+
+
+.container
+	{
+		/*width: 80%;*/
+		padding-top: 108px;
+		/*padding-left: 81px;*/
+	}
+.content
+	{
+		/*margin-top: 108px;*/
+		margin-left: 81px;
+		margin-right: 0px;
+		/*max-width: 640px;*/
+	}
+.p_list
+	{
+		/*height: 189px;*/
+		margin-top: 12px;
+		margin-bottom: 10px;
+		max-width: 640px;
+	}
+.l_img
+	{
+		width: 35%;
+		/*width: 202px;*/
+		height: 100%;
+		line-height: 100%;
+		text-align: center;
+	}
+.l_box
+	{
+		/*width: 427px;*/
+		width: 65%;
+		height: 100%;
+		padding-top: 16px;
+		padding-left: 22px;
+	}
+.tit
+	{
+		color: #c20202;
+		font-size: 18px;
+	}
+.m_t
+	{
+		color: #8c8a00;
+		font-size: 14px;
+		line-height: 14px;
+		padding-top: 5px;
+	}
+.l_text
+	{
+		width: 100%;
+		margin-top: 25px;
+		color: #615a5a;
+		font-size: 11px;
+		line-height: 26px;
+		letter-spacing: 2px;
+	}
+.page
+	{
+		margin-right: 16px;
+		margin-top: 47px;
+	}
+.p_a
+	{
+		color: #1a1a1a;
+		background-color: #a8a8a8;
+		width: 15px;
+		height: 15px;
+		margin-left: 3px;
+		text-align: center;
+		@include border-radius(15px, 15px);
+		&:hover
+			{
+				color: #ffffff;
+				background-color: #252525;
+			}
+		&:active
+			{
+				color: #ffffff;
+				background-color: #252525;
+			}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

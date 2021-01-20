@@ -1,0 +1,161 @@
+@import "compass/reset";
+@import "compass/css3";
+
+
+
+
+.content
+	{
+		margin-top: 231px;
+		margin-left: 81px;
+	}
+.first
+	{
+		margin-left: 14px;
+	}
+.m_a
+	{
+		color: #000000;
+		margin-top: 26px;
+		font-size: 13px;
+		padding-left: 11px;
+		padding-right: 11px;
+		&:hover	
+			{
+				color: #d00000;
+			}
+	}
+.table
+	{
+		width: 564px;
+		min-height: 285px;
+		margin-top: 31px;
+		table
+			{
+				width: 100%;
+				max-height: 100%;
+			}
+		.f_a
+			{
+				background-color: #a6a6a6;
+				border-bottom: 1px solid #ffffff;
+			}
+		.f_b
+			{
+				background-color: #f1f1e4;
+				
+			}
+		.f_c
+			{
+				background-color: #e6e6e6;
+				
+			}
+		.b_b
+			{
+				border-bottom: 1px solid #ffffff;
+			}
+		.ti
+			{
+				width: 30%;
+			}
+		th
+			{
+				color: #ffffff;
+				font-size: 13px;
+				height: 25px;
+				text-align: center;
+			}
+		td
+			{
+				font-size: 12px;
+				height: 25px;
+				line-height: 25px;
+				text-align: center;
+			}
+		.t_red
+			{
+				color: #d82424;
+			}
+
+	}
+
+.d_c
+	{
+		margin-left: 348px;
+		margin-top: 20px;
+		width: 216px;
+		height: 36px;
+		border: 1px solid #e1e1e1;
+		background-color: #2a2a2a;
+		color: #ffffff;
+	}
+.con
+	{
+		width: 137px;
+		padding-top: 13px;
+		font-size: 11px;
+		height: 100%;
+		text-align: center;
+		border-right: 1px solid #e1e1e1;
+	}
+.dot
+	{
+		text-align: center;
+		padding-top: 13px;
+		color: #ffde00;
+		font-size: 13px;
+		width: 77px;
+		
+	}
+.ai
+	{
+		color: #d00000;
+	}
+.a_o
+	{
+		color: #8f8f8f;
+	}
+
+
+
+
+
+
+	.page
+		{
+			margin-top: 10px;
+		}
+	.p_a
+		{
+			color: #1a1a1a;
+			background-color: #a8a8a8;
+			width: 15px;
+			height: 15px;
+			margin-left: 3px;
+			text-align: center;
+			@include border-radius(15px, 15px);
+			&:hover
+				{
+					color: #ffffff;
+					background-color: #252525;
+				}
+			&:active
+				{
+					color: #ffffff;
+					background-color: #252525;
+				}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
